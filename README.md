@@ -23,9 +23,9 @@ Proceed at your own risk, I shall not take responsibility for any damages caused
 ## Issues
 - Sometimes sleep doesn't work while closing the lid. (Very Random)
 - Keyboard mute shortcut. (Displays muted but doesn't actually mute)
-- iMessage and Facetime. (I tried, it failed, but for some reason it now works perfectly fine.)
-- Trackpad gestures not quite working. Maybe I'll find a fix for that.
-- One ACPI Error while booting. Can be ignored. (Hoping someone can help me with this) | Disable verbose (-v) mode to just hide it...
+- iMessage and Facetime. (It works after some time, idk why)
+- One ACPI Error while booting. Can be ignored. (Disable verbose (-v) mode to just hide it...)
+- VERY random screen flickering and glitching. Don't know what it's caused by, but it happends from time to time.
 
 ## Let's Get Started
 
@@ -39,7 +39,6 @@ Proceed at your own risk, I shall not take responsibility for any damages caused
 - Upgrade to the latest BIOS.
 - If yours came with Intel Optane, you need to disable that and use AHCI Legacy mode (Not RST).
 - Disable secure boot and unload optimized defaults for windows 10.
-- Disable Virtualization
 
 ## 1. Make Install USB (You will need a mac for this | Don't have a Mac? [Look at this tutorial](MacVM.md))
 First, connect your 8GB (or more) USB drive to your mac.
@@ -130,6 +129,11 @@ If you still want to update, please do a Time Machine backup beforehand to prote
 - Thanks to [Sniki](https://www.tonymacx86.com/members/1501160/) for his V330 guide.
 
 ## Changelog:
+### 14/02/2020: Supplemental Update 2
+- Removed issues that just fix them selfes
+- Virtualization can be enabled (otherwise you cant run vms on it)
+- Added Screen issue
+
 ### 09/10/2019: Supplemental Update 2
 - Added important Info about Mojave Supplemental Update 2 
 
